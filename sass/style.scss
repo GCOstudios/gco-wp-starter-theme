@@ -1,0 +1,14 @@
+// Third-party
+@import "vendor/vendor";
+//@import "vendor/flickity";
+
+// Configuration: variables, mixins and functions
+//@import "config/mixins";
+@import "config/variables";
+
+// General and base settings
+@import "base/base";
+
+// Macro and micro layouts
+@import "layout/header";
+@import "layout/footer";
