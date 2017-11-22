@@ -8,7 +8,7 @@
 		<link rel="manifest" href="site.webmanifest">
 		<link rel="apple-touch-icon" href="icon.png">
 
-		<?php wp_hea(); ?>
+		<?php wp_head(); ?>
 	</head>
 
 	<body <?php body_class(); ?>>

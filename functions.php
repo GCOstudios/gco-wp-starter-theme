@@ -69,7 +69,7 @@ function gcowp_widget( $name, $id, $description ) {
 /**
  * Enqueue scripts and styles.
  */
-fucntion gcowp_scripts() {
+function gcowp_scripts() {
 	wp_enqueue_style( 'gcowp-style', get_template_directory_uri().'/css/style.css' );
 
 	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri().'/js/bootstrap.min.js', array('jquery'), '4.0.0-beta.2', true);
